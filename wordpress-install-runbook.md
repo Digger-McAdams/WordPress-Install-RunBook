@@ -1,6 +1,6 @@
 # WordPress Install Runbook - How to install WordPress on a Ubuntu Server
 
->This install assumes you understand how to SSH into a server.
+* This install assumes you understand how to SSH into a server.
 
 ## Step 1 - Install Apache 2
 
@@ -19,6 +19,7 @@
 4.  Now that's it's installed let's switch 'er on:
 
 ``sudo systemctl start apache2``
+
 ``sudo systemctl enable apache2``
 
 
